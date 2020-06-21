@@ -4,17 +4,17 @@
 console.log('--- loading: sum numbers in range');
 
 function sumNumbersInRangeHandler() {
-  debugger;
-  console.log('\n--- action: sum numbers in range ---');
-  console.log('range:', typeof range, '\n', range);
+	debugger;
+	console.log('\n--- action: sum numbers in range ---');
+	console.log('range:', typeof range, '\n', range);
 
-  // perform core logic
-  let sum = 0;
-  for (let i = _; i <= _; i++) {
-    sum += _;
-  }
-  console.log('sum:', typeof sum, '\n', sum);
+	// perform core logic
+	let sum = 0;
+	for (let i = 1; i <= range; i++) {
+		sum += `${range}`;
+	}
+	console.log('sum:', typeof sum, '\n', sum);
 
-  // alert result for the user
-  alert(sum);
+	// alert result for the user
+	alert(sum);
 }
